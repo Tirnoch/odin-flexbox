@@ -8,6 +8,7 @@
   display: flex;
   background-color: #1f2937;
   color: #e5e7eb;
+  height: 10%;
 }
 .header a {
   color: #e5e7eb;
@@ -18,7 +19,7 @@
   flex: 1;
   list-style: none;
   justify-content: space-between;
-  margin: 1% 15%;
+  padding: 1% 15%;
 }
 .header ul li:nth-child(n + 2) {
   width: 15%;
@@ -33,14 +34,120 @@
 .section-one {
   background-color: #1f2937;
   display: flex;
+  color: #f9faf8;
+  padding: 2% 15%;
+  height: 20rem;
 }
 
 .section-one .hero {
-  color: #f9faf8;
-  padding: 2% 20%;
+  width: 50%;
 }
 
 .section-one .hero h1 {
   font-size: 48px;
   font-weight: bolder;
+}
+.section-one .hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.section-one .hero-image {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100;
+}
+.section-one img {
+  height: 60%;
+  width: 60%;
+}
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 0 20px;
+  border-style: solid;
+  border-color: #e5e7eb;
+  transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #1f2937;
+  color: white;
+}
+button:active {
+  background-color: #1f2937;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.section-two {
+  display: flex;
+  color: #1f2937;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 20rem;
+}
+.section-two h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  padding-bottom: 20px;
+}
+.section-two ul {
+  display: flex;
+  width: 60%;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+}
+.section-two img {
+  width: 90%;
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #3882f6;
+}
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e5e7eb;
+  font-size: 36px;
+  color: #1f2937;
+  padding: 5% 20%;
+  height: 20rem;
+}
+
+.section-three .quote {
+  font-style: italic;
+  font-weight: 300;
+}
+.section-three .author {
+  display: flex;
+  justify-content: end;
+  font-weight: bold;
+}
+.section-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3882f6;
+  margin: 5% 20%;
+  border-radius: 10px;
+  color: #e5e7eb;
+}
+
+.section-four .bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  padding: 10% 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
